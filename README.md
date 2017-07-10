@@ -41,12 +41,8 @@ Check **SeisGram2K** version:
 $ docker run -it --rm -e DISPLAY=<your_ip_address>:0 -v /tmp/.X11-unix:/tmp/.X11-unix seisgram2k70 -version
 ```
 
-View real-time waveforms:
-```
-$ docker run -it --rm -e DISPLAY=<your_ip_address>:0 -v /tmp/.X11-unix:/tmp/.X11-unix seisgram2k70 -seedlink "eida-internal.int.ingv.it:18000#IV_ACER:HH?#1200" -seedlink.groupchannels YES -commands.onread rmean
-```
-
 ### Run docker (Linux)
+(under development)
 
 # Contribute
 Please, feel free to contribute.
