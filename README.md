@@ -52,4 +52,4 @@ $ docker run -it --rm -e DISPLAY=<your_ip_address>:0 -v /tmp/.X11-unix:/tmp/.X11
 Please, feel free to contribute.
 
 # Credit
-The SeisGram2K software was developed to Anthony Lomax anthony[at]alomax.net
+The SeisGram2K software was developed by Anthony Lomax anthony[at]alomax.net
