@@ -7,7 +7,7 @@ $ cd docker_SeisGram2K
 $ docker build --tag seisgram2k70 . 
 ```
 
-## Run docker (Mac OSX User)
+## Run docker (Mac OSX)
 ### XQuartz
 Download and install **XQuartz**:
 - https://www.xquartz.org
@@ -38,6 +38,8 @@ View real-time waveforms:
 ```
 $ docker run -it --rm -e DISPLAY=10.0.4.75:0 -v /tmp/.X11-unix:/tmp/.X11-unix seisgram2k70 -seedlink "hsl1.int.ingv.it:18000#IV_ACER:HH?#1200" -seedlink.groupchannels YES -commands.onread rmean
 ```
+
+## Run docker (Linux)
 
 # Contribute
 Please, feel free to controbute.
