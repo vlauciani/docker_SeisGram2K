@@ -26,12 +26,17 @@ Get your IP address and use it to start docker below:
 ```
 $ ifconfig | grep "inet"
     . . .
-	inet 10.180.3.98 netmask 0xfffc0000 broadcast 10.183.255.255
+	inet 10.0.4.75 netmask 0xff800000 broadcast 10.127.255.255
 	. . .
 [valentino@albus 15:15:07 ~/Downloads/SeisGram2K]$
 ```
 
-Start docker:
+run the command:
+```
+$ xhost + <your_ip_address>
+```
+
+open XQuartz App and start docker:
 ```
 $ docker run -it --rm -e DISPLAY=<your_ip_address>:0 -v /tmp/.X11-unix:/tmp/.X11-unix seisgram2k70
 ```
