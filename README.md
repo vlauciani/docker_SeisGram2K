@@ -1,20 +1,23 @@
-# Start Docker for SeisGram2k
+# docker-SeisGram2K
 
-## Build docker
+SeisGram2K in a Docker container
+
+## Quickstart
+### Build docker
 ```
 $ git clone git@gitlab.rm.ingv.it:uf/docker_SeisGram2K.git
 $ cd docker_SeisGram2K
 $ docker build --tag seisgram2k70 . 
 ```
 
-## Run docker (Mac OSX)
-### XQuartz
+### Run docker (Mac OSX)
+#### XQuartz
 Download and install **XQuartz**:
 - https://www.xquartz.org
 
 Enable flag: **Preferences** -> **Security** -> **Allow connections from network clients**.
 
-### Docker
+#### Docker
 Get your IP address and use it to start docker below:
 ```
 $ ifconfig | grep "inet"
@@ -39,7 +42,10 @@ View real-time waveforms:
 $ docker run -it --rm -e DISPLAY=10.0.4.75:0 -v /tmp/.X11-unix:/tmp/.X11-unix seisgram2k70 -seedlink "hsl1.int.ingv.it:18000#IV_ACER:HH?#1200" -seedlink.groupchannels YES -commands.onread rmean
 ```
 
-## Run docker (Linux)
+### Run docker (Linux)
 
 # Contribute
 Please, feel free to controbute.
+
+# Credit
+The SeisGram2K software was developed to Anthony Lomax 
