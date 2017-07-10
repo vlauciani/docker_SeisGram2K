@@ -3,6 +3,10 @@
 SeisGram2K in a Docker container
 
 ## Quickstart
+SeisGram2K Seismogram Viewer is an easy-to-use, platform-independent, Java software package for interactive visualization and analysis of earthquake seismograms developed by Anthony Lomax anthony[at]alomax.net.   
+More info here:
+- http://alomax.free.fr/seisgram/SeisGram2K.html
+
 ### Build docker
 ```
 $ git clone git@gitlab.rm.ingv.it:uf/docker_SeisGram2K.git
