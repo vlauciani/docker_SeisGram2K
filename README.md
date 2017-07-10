@@ -49,7 +49,7 @@ $ docker run -it --rm -e DISPLAY=<your_ip_address>:0 -v /tmp/.X11-unix:/tmp/.X11
 ### Run docker (Linux)
 
 # Contribute
-Please, feel free to controbute.
+Please, feel free to contribute.
 
 # Credit
 The SeisGram2K software was developed to Anthony Lomax anthony[at]alomax.net
