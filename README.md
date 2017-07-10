@@ -48,4 +48,4 @@ $ docker run -it --rm -e DISPLAY=10.0.4.75:0 -v /tmp/.X11-unix:/tmp/.X11-unix se
 Please, feel free to controbute.
 
 # Credit
-The SeisGram2K software was developed to Anthony Lomax 
+The SeisGram2K software was developed to Anthony Lomax anthony[at]alomax.net
