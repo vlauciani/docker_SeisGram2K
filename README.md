@@ -1,4 +1,4 @@
-# docker-SeisGram2K
+# docker_SeisGram2K
 
 SeisGram2K in a Docker container
 
@@ -27,8 +27,8 @@ Get your IP address and use it to start docker below:
 $ ifconfig | grep "inet"
     . . .
 	inet 10.0.4.75 netmask 0xff800000 broadcast 10.127.255.255
-	. . .
-[valentino@albus 15:15:07 ~/Downloads/SeisGram2K]$
+    . . .
+$
 ```
 
 run the command:
